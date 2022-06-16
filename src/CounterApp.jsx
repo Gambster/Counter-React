@@ -29,14 +29,14 @@ const CounterApp = ( { value } ) => {
                     <h1 id='counter-title'> CounterApp </h1>
                     <h2 id="counter">{ count }</h2>
                     <div className="col-6">
-                    <button onClick={ add }> +1 </button>
-                    <button onClick={ subtract }> -1 </button>
-                    <button onClick={ reset }> Reset </button>
-                </div>
+                        <button onClick={ add }> +1 </button>
+                        <button onClick={ subtract }> -1 </button>
+                        <button onClick={ reset }> Reset </button>
+                    </div>
                 </div>
             </div>
     );
-    
+
 };
 
 
