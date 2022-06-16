@@ -36,6 +36,7 @@ const CounterApp = ( { value } ) => {
                 </div>
             </div>
     );
+    
 };
 
 
